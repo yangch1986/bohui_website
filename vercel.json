@@ -1,4 +1,12 @@
 {
-  "buildCommand": "modern deploy",
-  "outputDirectory": ".output"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/", "destination": "/html/main/index.html" },
+    { "source": "/tech/:path*", "destination": "/html/main/tech/index.html" },
+    { "source": "/sleep/:path*", "destination": "/html/main/sleep/index.html" },
+    { "source": "/nursing/:path*", "destination": "/html/main/nursing/index.html" },
+    { "source": "/sit/:path*", "destination": "/html/main/sit/index.html" },
+    { "source": "/about/:path*", "destination": "/html/main/about/index.html" }
+  ]
 }
