@@ -4,20 +4,20 @@ export default function HomePage() {
   return (
     <main>
       <Helmet>
-        <title>DARMA 光纤传感器</title>
+        <title>铂慧科技 光纤传感器</title>
         <meta
           name="description"
-          content="DARMA 光纤传感器，全球领先的生命体征传感技术，医疗级采集心率、呼吸率等生命体征数据。"
+          content="铂慧科技 光纤传感器，全球领先的生命体征传感技术，医疗级采集心率、呼吸率等生命体征数据。"
         />
-        <meta property="og:title" content="DARMA 光纤传感器" />
+        <meta property="og:title" content="铂慧科技 光纤传感器" />
         <meta property="og:description" content="全球领先的生命体征传感技术。" />
-        <meta property="og:url" content="https://www.darma.cn/" />
+        <meta property="og:url" content="https://bohuitech.cn/" />
       </Helmet>
 
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="eyebrow">DARMA 光纤传感器</span>
+            <span className="eyebrow">铂慧科技 光纤传感器</span>
             <h1>全球领先的生命体征传感技术</h1>
             <p className="tag">光纤传感器，“我”即精确</p>
             <p>采集人体心率、呼吸率等生命体征数据达医疗级别。</p>
@@ -39,7 +39,7 @@ export default function HomePage() {
           </div>
           <div className="media">
             <img
-              src="https://www.darma.cn/images/home-cfda-fda.2b6bfef3f4862927a7cb3b86b4d15025.png"
+              src="/bohui-logo.svg"
               alt="铂慧 CFDA，FDA 认证"
             />
           </div>
@@ -52,7 +52,7 @@ export default function HomePage() {
           <div className="grid-3">
             <div className="card">
               <img
-                src="https://www.darma.cn/images/home-fibre-icon-thick-active.d57cddb3fe792905aa94cba27a24d940.png"
+                src="/bohui-logo.svg"
                 alt="非接触 无感 超薄"
               />
               <h3>非接触 无感 超薄</h3>
@@ -60,7 +60,7 @@ export default function HomePage() {
             </div>
             <div className="card">
               <img
-                src="https://www.darma.cn/images/home-fibre-icon-case-active.1204e4e55eb7d2e1f710131abb6e5fce.png"
+                src="/bohui-logo.svg"
                 alt="灵活定制 高效可靠"
               />
               <h3>灵活定制 高效可靠</h3>
@@ -82,7 +82,7 @@ export default function HomePage() {
           </div>
           <div className="media">
             <img
-              src="https://www.darma.cn/images/home-tech-prew.5270176af8f549e21bed55956cc8bd4b.png"
+              src="/bohui-logo.svg"
               alt="铂慧解决方案概览"
             />
           </div>

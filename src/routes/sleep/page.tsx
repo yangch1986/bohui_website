@@ -4,14 +4,14 @@ export default function SleepPage() {
   return (
     <main>
       <Helmet>
-        <title>DARMA 睡眠管理</title>
+        <title>铂慧科技 睡眠管理</title>
         <meta
           name="description"
-          content="DARMA 应用广泛的睡眠健康管理系统，实时心率、呼吸、睡眠监测，适用于家庭、社区、医院与养老院。"
+          content="铂慧科技 应用广泛的睡眠健康管理系统，实时心率、呼吸、睡眠监测，适用于家庭、社区、医院与养老院。"
         />
-        <meta property="og:title" content="DARMA 睡眠管理" />
+        <meta property="og:title" content="铂慧科技 睡眠管理" />
         <meta property="og:description" content="应用广泛的睡眠健康管理系统。" />
-        <meta property="og:url" content="https://www.darma.cn/sleep.html" />
+        <meta property="og:url" content="https://bohuitech.cn/sleep.html" />
       </Helmet>
 
       <section className="hero">

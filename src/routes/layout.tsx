@@ -25,7 +25,8 @@ export default function Layout() {
       <header className="site-header">
         <div className="container nav">
           <a className="brand" href="/">
-            铂慧科技
+            <img src="/bohui-logo.svg" alt="铂慧科技logo" />
+            <span>铂慧科技</span>
           </a>
           <nav className="nav-links">
             {navItems.map(item => (
@@ -44,19 +45,16 @@ export default function Layout() {
       <footer className="footer">
         <div className="container footer-grid">
           <div>
-            <strong>铂慧科技（深圳）有限公司</strong>
+            <strong className="company-name">
+              <img src="/bohui-logo.svg" alt="铂慧科技logo" />
+              <span>铂慧科技（深圳）有限公司</span>
+            </strong>
             <p>关注我们：微博 / Facebook / Twitter</p>
-          </div>
-          <div>
-            <strong>联系我们</strong>
-            <p>地址信息：深圳市南山区西丽街道留仙大道创智云城 A7 栋 1905 室</p>
-            <p>邮箱：hello@darma.co</p>
-            <p>电话：0755 8654 0386</p>
           </div>
           <div>
             <strong>导航</strong>
             <p>首页｜核心技术｜睡眠管理｜智慧养老｜企业办公｜关于我们</p>
-            <p className="notice">Copyright © 2014-2023 Darma Inc. All rights reserved. 粤ICP备16002859号-1</p>
+            <p className="notice">Copyright © 2014-2026 Bohui Tech. All rights reserved. 粤ICP备16002859号-1</p>
           </div>
         </div>
       </footer>

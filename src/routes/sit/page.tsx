@@ -4,14 +4,14 @@ export default function SitPage() {
   return (
     <main>
       <Helmet>
-        <title>DARMA 企业办公</title>
+        <title>铂慧科技 企业办公</title>
         <meta
           name="description"
-          content="DARMA 职场人士健康管理系统，提供实时心率、呼吸、HRV 体征监测，适用于企业办公等场景。"
+          content="铂慧科技 职场人士健康管理系统，提供实时心率、呼吸、HRV 体征监测，适用于企业办公等场景。"
         />
-        <meta property="og:title" content="DARMA 企业办公" />
+        <meta property="og:title" content="铂慧科技 企业办公" />
         <meta property="og:description" content="职场人士健康管理系统，实时心率、呼吸、HRV。" />
-        <meta property="og:url" content="https://www.darma.cn/sit.html" />
+        <meta property="og:url" content="https://bohuitech.cn/sit.html" />
       </Helmet>
 
       <section className="hero">
@@ -27,7 +27,7 @@ export default function SitPage() {
           </div>
           <div className="media">
             <img
-              src="https://www.darma.cn/images/sit-hero.81df10bd480ba1c1bf36a0c1c94e12d4.png"
+              src="/bohui-logo.svg"
               alt="企业办公系统"
             />
           </div>
@@ -81,19 +81,19 @@ export default function SitPage() {
           <h2>产品功能</h2>
           <div className="grid-3">
             <div className="card">
-              <img src="https://www.darma.cn/images/sit-image1.1532d77aa048ddcd554fe17c32b2c192.png" alt="实时体征监测" />
+              <img src="/bohui-logo.svg" alt="实时体征监测" />
               <h3>实时体征监测</h3>
             </div>
             <div className="card">
-              <img src="https://www.darma.cn/images/sit-image2.6f5b13630b69ad2dc18f9409275469de.png" alt="异常报警" />
+              <img src="/bohui-logo.svg" alt="异常报警" />
               <h3>异常报警</h3>
             </div>
             <div className="card">
-              <img src="https://www.darma.cn/images/sit-image3.30d0208ae0a2edbac6c0f120686ab511.png" alt="数据分析" />
+              <img src="/bohui-logo.svg" alt="数据分析" />
               <h3>数据分析</h3>
             </div>
             <div className="card">
-              <img src="https://www.darma.cn/images/sit-image4.cde6720bf519bb74db17776827d59c4e.png" alt="远程管理" />
+              <img src="/bohui-logo.svg" alt="远程管理" />
               <h3>远程管理</h3>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function SitPage() {
       <section className="section">
         <div className="container hero-grid">
           <div className="media">
-            <img src="https://www.darma.cn/images/sit-image5.1dfcc70d622c5ce73d464ac11977d265.png" alt="应用场景" />
+            <img src="/bohui-logo.svg" alt="应用场景" />
           </div>
           <div>
             <h2>应用场景</h2>
@@ -120,10 +120,10 @@ export default function SitPage() {
       <section className="section alt">
         <div className="container grid-3">
           <div className="media">
-            <img src="https://www.darma.cn/images/sit-image6.f4cb635f3562cffc2967c13c3c0628f0.png" alt="数据平台" />
+            <img src="/bohui-logo.svg" alt="数据平台" />
           </div>
           <div className="media">
-            <img src="https://www.darma.cn/images/sit-image7.6f39177a3bb0e79d4547e63d137af073.png" alt="管理系统" />
+            <img src="/bohui-logo.svg" alt="管理系统" />
           </div>
         </div>
       </section>

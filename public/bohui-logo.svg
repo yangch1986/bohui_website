@@ -1,0 +1,20 @@
+<svg width="420" height="140" viewBox="0 0 420 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="铂慧科技logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#8db1de"/>
+      <stop offset="1" stop-color="#4c82c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="140" fill="none"/>
+  <g transform="translate(10,10)">
+    <path d="M18 58c0-16 12-28 28-28h38a6 6 0 1 1 0 12H46c-10 0-16 6-16 16v24c0 10 6 16 16 16h38a6 6 0 1 1 0 12H46c-16 0-28-12-28-28V58z" fill="url(#g1)"/>
+    <path d="M212 58c0-16 12-28 28-28h38a6 6 0 1 1 0 12h-38c-10 0-16 6-16 16v24c0 10 6 16 16 16h38a6 6 0 1 1 0 12h-38c-16 0-28-12-28-28V58z" fill="url(#g1)"/>
+    <circle cx="178" cy="24" r="4" fill="#8db1de"/>
+    <circle cx="150" cy="70" r="46" fill="#286fbc"/>
+    <path d="M150 26 124 70h52z" fill="#ffffff"/>
+    <path d="M106 46 132 92H80z" fill="#ffffff"/>
+    <path d="M194 46 220 92h-52z" fill="#ffffff"/>
+    <path d="M150 114 176 70h-52z" fill="#ffffff"/>
+    <text x="88" y="128" font-family="Arial, sans-serif" font-size="34" letter-spacing="2" fill="#4c82c5">BRIGHT</text>
+  </g>
+</svg>
