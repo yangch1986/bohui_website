@@ -44,7 +44,7 @@ export default function Layout() {
       <footer className="footer">
         <div className="container footer-grid">
           <div>
-            <strong>深圳市铂慧科技有限公司</strong>
+            <strong>铂慧科技（深圳）有限公司</strong>
             <p>关注我们：微博 / Facebook / Twitter</p>
           </div>
           <div>

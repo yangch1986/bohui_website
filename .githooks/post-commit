@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -e
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "$branch" = "HEAD" ]; then
+  exit 0
+fi
+
+# Auto-sync: push each local commit to origin/<current-branch>.
+git push origin "$branch"

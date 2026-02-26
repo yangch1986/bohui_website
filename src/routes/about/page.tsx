@@ -7,7 +7,7 @@ export default function AboutPage() {
         <title>DARMA 关于我们</title>
         <meta
           name="description"
-          content="深圳市铂慧科技有限公司成立于2014年，核心技术为光纤传感技术（DARMA光纤传感器）。"
+          content="铂慧科技（深圳）有限公司成立于2014年，核心技术为光纤传感技术（DARMA光纤传感器）。"
         />
         <meta property="og:title" content="DARMA 关于我们" />
         <meta property="og:description" content="公司介绍、管理团队、发展历程与联系方式。" />
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="container hero-grid">
           <div>
             <span className="eyebrow">公司介绍</span>
-            <h1>深圳市铂慧科技有限公司</h1>
+            <h1>铂慧科技（深圳）有限公司</h1>
             <p>
               成立于 2014 年，总部位于中国深圳硅谷——南山区。公司主要创始成员来自美国硅谷谷歌、惠普，核心技术为光纤传感技术（DARMA 光纤传感器）。
             </p>
