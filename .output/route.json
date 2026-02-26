@@ -1,0 +1,58 @@
+{
+  "routes": [
+    {
+      "urlPath": "/",
+      "entryName": "main",
+      "entryPath": "html/main/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    },
+    {
+      "urlPath": "/about",
+      "entryName": "main",
+      "entryPath": "html/main/about/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    },
+    {
+      "urlPath": "/nursing",
+      "entryName": "main",
+      "entryPath": "html/main/nursing/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    },
+    {
+      "urlPath": "/sit",
+      "entryName": "main",
+      "entryPath": "html/main/sit/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    },
+    {
+      "urlPath": "/sleep",
+      "entryName": "main",
+      "entryPath": "html/main/sleep/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    },
+    {
+      "urlPath": "/tech",
+      "entryName": "main",
+      "entryPath": "html/main/tech/index.html",
+      "isSPA": true,
+      "isStream": false,
+      "isSSR": false,
+      "isRSC": false
+    }
+  ]
+}

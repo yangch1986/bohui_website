@@ -1,0 +1,25 @@
+{
+  "name": "darma-modern",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "modern dev",
+    "build": "modern build",
+    "serve": "modern serve",
+    "deploy": "modern deploy"
+  },
+  "dependencies": {
+    "@modern-js/runtime": "^2.46.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@modern-js/app-tools": "^2.46.0",
+    "@modern-js/plugin-ssg": "^2.46.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.2.41",
+    "@types/react-dom": "^18.2.17",
+    "typescript": "^5.5.4"
+  }
+}

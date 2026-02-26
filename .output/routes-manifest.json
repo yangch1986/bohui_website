@@ -1,0 +1,79 @@
+{
+  "routeAssets": {
+    "main": {
+      "chunkIds": [
+        691,
+        594,
+        740,
+        98,
+        817,
+        792
+      ],
+      "assets": [
+        "/static/js/lib-react.53980ac1.js",
+        "/static/js/lib-polyfill.d8e1afa1.js",
+        "/static/js/lib-router.4b88dac5.js",
+        "/static/js/817.aec5b9da.js",
+        "/static/css/main.2e715691.css",
+        "/static/js/main.8f7a680d.js"
+      ],
+      "referenceCssAssets": [
+        "/static/css/main.2e715691.css"
+      ]
+    },
+    "page": {
+      "chunkIds": [
+        530
+      ],
+      "assets": [
+        "/static/js/async/page.2b422799.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "about/page": {
+      "chunkIds": [
+        272
+      ],
+      "assets": [
+        "/static/js/async/about/page.5a58b74a.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "nursing/page": {
+      "chunkIds": [
+        711
+      ],
+      "assets": [
+        "/static/js/async/nursing/page.416057e8.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "sit/page": {
+      "chunkIds": [
+        105
+      ],
+      "assets": [
+        "/static/js/async/sit/page.78d0961a.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "sleep/page": {
+      "chunkIds": [
+        338
+      ],
+      "assets": [
+        "/static/js/async/sleep/page.948013f4.js"
+      ],
+      "referenceCssAssets": []
+    },
+    "tech/page": {
+      "chunkIds": [
+        107
+      ],
+      "assets": [
+        "/static/js/async/tech/page.bc576a28.js"
+      ],
+      "referenceCssAssets": []
+    }
+  }
+}
