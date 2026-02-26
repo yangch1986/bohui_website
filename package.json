@@ -7,7 +7,8 @@
     "dev": "modern dev",
     "build": "modern build",
     "serve": "modern serve",
-    "deploy": "modern deploy"
+    "deploy": "modern deploy",
+    "autosync": "node scripts/auto-sync.mjs"
   },
   "dependencies": {
     "@modern-js/runtime": "^2.46.0",
