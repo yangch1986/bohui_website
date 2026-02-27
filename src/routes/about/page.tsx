@@ -4,14 +4,14 @@ export default function AboutPage() {
   return (
     <main>
       <Helmet>
-        <title>铂慧科技 关于我们</title>
+        <title>关于我们 | 铂慧科技（深圳）有限公司</title>
         <meta
           name="description"
-          content="铂慧科技（深圳）有限公司成立于2014年，核心技术为光纤传感技术（铂慧科技光纤传感器）。"
+          content="铂慧科技（深圳）有限公司专注光纤传感器与智能床垫产品研发，面向睡眠健康、养老照护与医疗机构提供连续监测解决方案。"
         />
-        <meta property="og:title" content="铂慧科技 关于我们" />
-        <meta property="og:description" content="公司介绍、管理团队、发展历程与联系方式。" />
-        <meta property="og:url" content="https://bohuitech.cn/about.html" />
+        <meta property="og:title" content="关于我们 | 铂慧科技（深圳）有限公司" />
+        <meta property="og:description" content="以光纤传感技术为核心的智能床垫与健康数据平台提供商。" />
+        <meta property="og:url" content="https://bohuitech.cn/about" />
       </Helmet>
 
       <section className="hero">
@@ -20,93 +20,48 @@ export default function AboutPage() {
             <span className="eyebrow">公司介绍</span>
             <h1>铂慧科技（深圳）有限公司</h1>
             <p>
-              成立于 2014 年，总部位于中国深圳硅谷——南山区。公司主要创始成员来自美国硅谷谷歌、惠普，核心技术为光纤传感技术（铂慧科技 光纤传感器）。
+              公司专注光纤传感技术在健康监测场景的工程化落地，核心产品为非接触式智能床垫系统，
+              覆盖家庭、养老、医疗等连续监测需求。
             </p>
-            <p>公司潜心光纤传感技术研究，在微光电机和传感器方面拥有深厚积累。已获得国内外技术专利 20 项，软件著作权 9 项。</p>
+            <p>
+              技术链路包括传感器硬件、主机信号处理、体征算法与平台化数据服务，
+              支持从单设备到机构级部署。
+            </p>
           </div>
           <div className="media">
-            <img src="/bohui-logo.svg" alt="公司介绍" />
+            <img src="/bohui-logo.svg" alt="铂慧科技" />
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2>管理团队</h2>
+          <h2>技术与产品方向</h2>
           <div className="grid-3">
             <div className="card">
-              <img src="/bohui-logo.svg" alt="胡俊豪 CEO" />
-              <h3>胡俊豪（CEO）</h3>
-              <p>铂慧科技创始人，曾任谷歌工程师、惠普研发人员，拥有产品设计与技术商业化经验。</p>
+              <h3>光纤传感器</h3>
+              <p>强度调制方案，非接触感知微小体征变化。</p>
             </div>
             <div className="card">
-              <img src="/bohui-logo.svg" alt="杨超 CTO" />
-              <h3>杨超（CTO）</h3>
-              <p>曾任惠普、BlackBerry 高级研发工程师，擅长微光电机与传感器技术开发。</p>
+              <h3>智能床垫终端</h3>
+              <p>床垫下部署，长期运行，低维护成本。</p>
             </div>
             <div className="card">
-              <img src="/bohui-logo.svg" alt="庄少春 医学主管" />
-              <h3>庄少春（医学主管）</h3>
-              <p>
-                医疗领域资深人士，常任美国达克州州立大学教授，南方医科大学生物医学工程学院临床导师，中国人民解放军福州总医院远程医学中心顾问专家。
-              </p>
+              <h3>健康数据平台</h3>
+              <p>支持个体追踪、群组管理与运营分析。</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="section alt">
-        <div className="container">
-          <h2>发展历程</h2>
-          <div className="grid-3">
-            <div className="card">
-              <h3>2014</h3>
-              <p>公司成立</p>
-            </div>
-            <div className="card">
-              <h3>2015</h3>
-              <p>获得 FDA 注册，完成天使轮融资</p>
-            </div>
-            <div className="card">
-              <h3>2016</h3>
-              <p>获得国家高新技术企业认证</p>
-            </div>
-            <div className="card">
-              <h3>2017</h3>
-              <p>通过 CFDA 注册，完成 A 轮融资</p>
-            </div>
-            <div className="card">
-              <h3>2018</h3>
-              <p>成立 铂慧科技 中国公司</p>
-            </div>
-            <div className="card">
-              <h3>2019</h3>
-              <p>完成 B 轮融资</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
         <div className="container hero-grid">
           <div>
-            <h2>联系我们</h2>
+            <h2>商务信息</h2>
             <p>地址信息：深圳市南山区西丽街道留仙大道创智云城 A7 栋 1905 室</p>
             <p>电话：0755 8654 0386</p>
           </div>
-          <div className="card">
-            <form>
-              <label>您的姓名</label>
-              <input type="text" placeholder="请输入姓名" />
-              <label>您的电话</label>
-              <input type="text" placeholder="请输入电话" />
-              <label>邮件标题</label>
-              <input type="text" placeholder="请输入标题" />
-              <label>留言内容</label>
-              <textarea placeholder="请输入留言" />
-              <button type="button">提交</button>
-            </form>
-          </div>
+          <div className="highlight">如需机构部署方案与接口对接，请电话联系商务团队。</div>
         </div>
       </section>
     </main>

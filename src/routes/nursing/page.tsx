@@ -4,130 +4,57 @@ export default function NursingPage() {
   return (
     <main>
       <Helmet>
-        <title>铂慧科技 智慧养老</title>
+        <title>智慧养老方案 | 铂慧科技</title>
         <meta
           name="description"
-          content="铂慧科技 智慧养老多维度体征监测产品，健康体征数据实时采集，适用于养老机构、社区与居家养老场景。"
+          content="铂慧科技智慧养老方案以智能床垫为核心，提供夜间体征监测、异常提醒和机构级看板管理。"
         />
-        <meta property="og:title" content="铂慧科技 智慧养老" />
-        <meta property="og:description" content="多维度体征监测产品，健康体征数据实时采集。" />
-        <meta property="og:url" content="https://bohuitech.cn/nursing.html" />
+        <meta property="og:title" content="智慧养老方案 | 铂慧科技" />
+        <meta property="og:description" content="面向养老机构的连续监测与照护运营平台。" />
+        <meta property="og:url" content="https://bohuitech.cn/nursing" />
       </Helmet>
 
       <section className="hero">
         <div className="container hero-grid">
           <div>
             <span className="eyebrow">智慧养老</span>
-            <h1>多维度体征监测产品</h1>
-            <p>健康体征数据实时采集</p>
-            <ul className="list">
-              <li>医疗级检测设备</li>
-              <li>实时体征监测</li>
-            </ul>
+            <h1>夜间照护数字化监测平台</h1>
+            <p>将床旁感知、风险提醒和机构管理看板打通，帮助护理团队提升响应效率。</p>
           </div>
           <div className="media">
-            <img
-              src="/bohui-logo.svg"
-              alt="智慧养老产品"
-            />
+            <img src="/bohui-logo.svg" alt="智慧养老方案" />
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2>产品参数</h2>
-          <table className="table">
-            <tbody>
-              <tr>
-                <th>产品名称</th>
-                <td>医疗级监测设备</td>
-              </tr>
-              <tr>
-                <th>监测方式</th>
-                <td>多维度体征监测</td>
-              </tr>
-              <tr>
-                <th>监测内容</th>
-                <td>呼吸率、心率、睡眠时长、卧床时间、离床时间、翻身次数、心率变异性（HRV）</td>
-              </tr>
-              <tr>
-                <th>监测场景</th>
-                <td>养老机构、社区、居家养老</td>
-              </tr>
-              <tr>
-                <th>监测时间</th>
-                <td>24 小时实时监测</td>
-              </tr>
-              <tr>
-                <th>传感器</th>
-                <td>光纤传感器</td>
-              </tr>
-              <tr>
-                <th>数据传输</th>
-                <td>无线传输</td>
-              </tr>
-              <tr>
-                <th>系统配置</th>
-                <td>床垫、设备、APP、平台</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="section alt">
-        <div className="container">
-          <h2>产品功能</h2>
+          <h2>机构侧能力</h2>
           <div className="grid-3">
             <div className="card">
-              <img src="/bohui-logo.svg" alt="实时体征监测" />
-              <h3>实时体征监测</h3>
+              <h3>床位全景看板</h3>
+              <p>统一查看在床、离床、异常状态，快速定位高优先级对象。</p>
             </div>
             <div className="card">
-              <img src="/bohui-logo.svg" alt="异常报警" />
-              <h3>异常报警</h3>
+              <h3>异常预警</h3>
+              <p>对心率、呼吸、离床风险等进行提醒，辅助护理决策。</p>
             </div>
             <div className="card">
-              <img src="/bohui-logo.svg" alt="数据分析" />
-              <h3>数据分析</h3>
+              <h3>数据追溯</h3>
+              <p>沉淀个体与群组趋势，支持护理质量与运营复盘。</p>
             </div>
-            <div className="card">
-              <img src="/bohui-logo.svg" alt="远程管理" />
-              <h3>远程管理</h3>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container hero-grid">
-          <div className="media">
-            <img src="/bohui-logo.svg" alt="场景展示" />
-          </div>
-          <div>
-            <h2>应用场景</h2>
-            <p>适用于养老机构、社区与居家养老的体征监测与管理。</p>
-            <ul className="list">
-              <li>实时体征数据采集与趋势分析</li>
-              <li>异常报警与护理响应</li>
-              <li>远程管理与多终端查看</li>
-            </ul>
           </div>
         </div>
       </section>
 
       <section className="section alt">
-        <div className="container grid-3">
-          <div className="media">
-            <img src="/bohui-logo.svg" alt="智慧养老平台" />
-          </div>
-          <div className="media">
-            <img src="/bohui-logo.svg" alt="数据管理" />
-          </div>
-          <div className="media">
-            <img src="/bohui-logo.svg" alt="护理管理" />
-          </div>
+        <div className="container">
+          <h2>部署模式</h2>
+          <ul className="list">
+            <li>单床接入：适合试点验证</li>
+            <li>整层接入：适合护理单元统一管理</li>
+            <li>多机构接入：支持集团化运营分析</li>
+          </ul>
         </div>
       </section>
     </main>

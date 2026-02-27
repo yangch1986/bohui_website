@@ -4,122 +4,96 @@ export default function SleepPage() {
   return (
     <main>
       <Helmet>
-        <title>铂慧科技 睡眠管理</title>
+        <title>智能床垫 | 睡眠与体征监测</title>
         <meta
           name="description"
-          content="铂慧科技 应用广泛的睡眠健康管理系统，实时心率、呼吸、睡眠监测，适用于家庭、社区、医院与养老院。"
+          content="铂慧智能床垫基于光纤传感技术，提供睡眠、呼吸、心率、体动与HRV连续监测，适用于家庭、养老与医疗机构。"
         />
-        <meta property="og:title" content="铂慧科技 睡眠管理" />
-        <meta property="og:description" content="应用广泛的睡眠健康管理系统。" />
-        <meta property="og:url" content="https://bohuitech.cn/sleep.html" />
+        <meta property="og:title" content="智能床垫 | 睡眠与体征监测" />
+        <meta property="og:description" content="非接触、低负担、长期连续的睡眠与生命体征监测方案。" />
+        <meta property="og:url" content="https://bohuitech.cn/sleep" />
       </Helmet>
 
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="eyebrow">睡眠管理</span>
-            <h1>应用广泛的睡眠健康管理系统</h1>
-            <p>实时心率、呼吸、睡眠</p>
+            <span className="eyebrow">智能床垫</span>
+            <h1>睡眠场景下的无感生命体征监测</h1>
+            <p>设备置于床垫下方，不接触皮肤，自动输出夜间健康趋势与风险提醒。</p>
+            <div className="stats">
+              <div className="stat">
+                <strong>非接触</strong>更适合长期连续监测
+              </div>
+              <div className="stat">
+                <strong>自动化</strong>无需手动打卡记录
+              </div>
+              <div className="stat">
+                <strong>可扩展</strong>支持机构级平台管理
+              </div>
+            </div>
           </div>
           <div className="media">
-            <div style={{ padding: 40, textAlign: 'center', color: 'var(--muted)' }}>睡眠管理产品图片待补充</div>
+            <img src="/bohui-logo.svg" alt="铂慧智能床垫" />
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2>安稳睡眠，活力每一天</h2>
-          <p>记录睡眠习惯及精准的睡眠分期，定期推送健康报告，预警疾病风险。</p>
-        </div>
-      </section>
-
-      <section className="section alt">
-        <div className="container">
-          <h2>睡眠质量，清晰明了</h2>
+          <h2>核心功能</h2>
           <div className="grid-3">
             <div className="card">
-              <h3>睡眠评分</h3>
-              <p>量化睡眠质量，易于长期追踪。</p>
+              <h3>睡眠质量评分</h3>
+              <p>结合睡眠连续性、觉醒次数与体动变化形成综合评分。</p>
             </div>
             <div className="card">
-              <h3>睡眠分期</h3>
-              <p>深入了解浅睡、深睡、清醒阶段变化。</p>
+              <h3>夜间心肺趋势</h3>
+              <p>持续监测心率、呼吸率变化，辅助发现异常波动时段。</p>
             </div>
             <div className="card">
-              <h3>睡眠习惯</h3>
-              <p>形成可视化趋势，帮助改善作息。</p>
+              <h3>HRV 评估</h3>
+              <p>支持压力恢复状态与自主神经平衡趋势评估。</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section">
-        <div className="container">
-          <h2>发现睡眠问题</h2>
-          <ul className="list">
-            <li>入睡困难</li>
-            <li>睡眠焦虑症</li>
-            <li>深睡时间少</li>
-            <li>醒来太早</li>
-          </ul>
-        </div>
-      </section>
-
       <section className="section alt">
         <div className="container">
-          <h2>改善睡眠效果</h2>
-          <ul className="list">
-            <li>减少咖啡、茶水摄入</li>
-            <li>运动放松心理调节</li>
-            <li>远离手机</li>
-            <li>调节睡眠环境</li>
-            <li>监测睡眠改善效果</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <h2>体验先进的睡眠跟踪</h2>
-          <p>通过精准的睡眠分期，深入分析您的睡眠质量。</p>
+          <h2>典型使用场景</h2>
           <div className="grid-3">
             <div className="card">
-              <h3>手机 APP 睡眠分析报告</h3>
-              <p>睡眠综合评分与趋势分析。</p>
+              <h3>居家健康管理</h3>
+              <p>面向家庭用户的长期夜间监测与睡眠改善支持。</p>
             </div>
             <div className="card">
-              <h3>多维度体征变化</h3>
-              <p>心率、呼吸率、体动变化趋势。</p>
+              <h3>养老机构照护</h3>
+              <p>支持多床位统一管理，提升夜间巡视效率。</p>
             </div>
             <div className="card">
-              <h3>健康趋势一目了然</h3>
-              <p>图片素材来源于 katemangostar / Freepik。</p>
+              <h3>医疗随访</h3>
+              <p>为术后康复、慢病管理提供连续趋势数据。</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section alt">
+      <section className="section">
         <div className="container">
           <h2>产品规格</h2>
           <table className="table">
             <tbody>
               <tr>
-                <th>型&nbsp;&nbsp;&nbsp;&nbsp;号</th>
-                <td>DM-WS05</td>
+                <th>型 号</th>
+                <td>BH-SM01</td>
               </tr>
               <tr>
-                <th>尺&nbsp;&nbsp;&nbsp;&nbsp;寸</th>
-                <td>830mm * 120mm * 8mm</td>
+                <th>部署方式</th>
+                <td>床垫下铺设光纤传感单元</td>
               </tr>
               <tr>
-                <th>重&nbsp;&nbsp;&nbsp;&nbsp;量</th>
-                <td>980 克</td>
-              </tr>
-              <tr>
-                <th>颜&nbsp;&nbsp;&nbsp;&nbsp;色</th>
-                <td>灰色</td>
+                <th>监测指标</th>
+                <td>心率、呼吸率、体动、睡眠过程、HRV</td>
               </tr>
               <tr>
                 <th>通信方式</th>
@@ -131,17 +105,6 @@ export default function SleepPage() {
               </tr>
             </tbody>
           </table>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <h2>睡眠质量分析</h2>
-          <ul className="list">
-            <li>睡眠评分</li>
-            <li>睡眠分期</li>
-            <li>睡眠习惯</li>
-          </ul>
         </div>
       </section>
     </main>
