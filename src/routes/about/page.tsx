@@ -24,31 +24,30 @@ export default function AboutPage() {
               覆盖家庭、养老、医疗等连续监测需求。
             </p>
             <p>
-              技术链路包括传感器硬件、主机信号处理、体征算法与平台化数据服务，
-              支持从单设备到机构级部署。
+              技术链路包括传感器硬件、主机信号处理、体征算法与平台化数据服务，支持从单设备到机构级部署。
             </p>
           </div>
           <div className="media">
-            <img src="/bohui-logo.svg" alt="铂慧科技" />
+            <img src="/media/about/bg.jpg" alt="铂慧科技公司介绍" />
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2>技术与产品方向</h2>
+          <h2>核心团队</h2>
           <div className="grid-3">
             <div className="card">
-              <h3>光纤传感器</h3>
-              <p>强度调制方案，非接触感知微小体征变化。</p>
+              <img src="/media/about/team-jh.jpg" alt="团队成员1" />
+              <h3>产品与技术负责人</h3>
             </div>
             <div className="card">
-              <h3>智能床垫终端</h3>
-              <p>床垫下部署，长期运行，低维护成本。</p>
+              <img src="/media/about/team-yc.jpg" alt="团队成员2" />
+              <h3>算法与系统负责人</h3>
             </div>
             <div className="card">
-              <h3>健康数据平台</h3>
-              <p>支持个体追踪、群组管理与运营分析。</p>
+              <img src="/media/about/team-sc.jpg" alt="团队成员3" />
+              <h3>医学与临床顾问</h3>
             </div>
           </div>
         </div>

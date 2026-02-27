@@ -6,3 +6,5 @@ output
 dist
 .vercel
 .output
+public/assets
+.codex

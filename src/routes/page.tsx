@@ -10,10 +10,7 @@ export default function HomePage() {
           content="铂慧科技（深圳）有限公司专注光纤传感器与智能床垫，提供非接触式心率、呼吸、体动、睡眠与HRV连续监测能力。"
         />
         <meta property="og:title" content="铂慧科技 | 光纤传感智能床垫" />
-        <meta
-          property="og:description"
-          content="一次安装，无感监测，持续输出可解释的睡眠与体征趋势数据。"
-        />
+        <meta property="og:description" content="一次安装，无感监测，持续输出可解释的睡眠与体征趋势数据。" />
         <meta property="og:url" content="https://bohuitech.cn/" />
       </Helmet>
 
@@ -43,64 +40,42 @@ export default function HomePage() {
             </div>
           </div>
           <div className="media">
-            <img src="/bohui-logo.svg" alt="铂慧科技logo" />
+            <video src="/media/home/hero-video.mp4" poster="/media/home/fibre-cover.png" autoPlay muted loop playsInline controls />
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <h2>为什么选择光纤传感智能床垫</h2>
+          <h2>技术优势</h2>
           <div className="grid-3">
             <div className="card">
-              <h3>无感监测，依从性高</h3>
-              <p>设备放置在床垫下方，不改变用户睡眠行为，适合长期持续使用。</p>
+              <img src="/media/home/icon-thin.png" alt="非接触 无感 超薄" />
+              <h3>非接触 无感 超薄</h3>
+              <p>传感模块位于床垫下方，用户无感知，适合持续监测。</p>
             </div>
             <div className="card">
-              <h3>抗电磁干扰，安全稳定</h3>
-              <p>光纤电绝缘、抗干扰，适合复杂环境下的连续测量。</p>
+              <img src="/media/home/icon-case.png" alt="灵活定制 高效可靠" />
+              <h3>灵活定制 高效可靠</h3>
+              <p>可按场景定制传感区域与部署规模。</p>
             </div>
             <div className="card">
-              <h3>高灵敏度</h3>
-              <p>微小压力变化可引起可检测的光强变化，支持精细生命体征趋势分析。</p>
+              <img src="/media/home/care-bg.png" alt="适用性高 覆盖面广" />
+              <h3>适用性高 覆盖面广</h3>
+              <p>适配居家、养老、医疗多场景体征管理需求。</p>
             </div>
           </div>
         </div>
       </section>
 
       <section className="section alt">
-        <div className="container">
-          <h2>核心监测指标</h2>
-          <div className="grid-3">
-            <div className="card">
-              <h3>睡眠结构</h3>
-              <p>睡眠时长、睡眠连续性、夜间觉醒与体动趋势。</p>
-            </div>
-            <div className="card">
-              <h3>心肺体征</h3>
-              <p>夜间心率、呼吸率与异常波动识别。</p>
-            </div>
-            <div className="card">
-              <h3>HRV 分析</h3>
-              <p>通过 BCG 心动周期提取 HRV，支持压力与自主神经状态评估。</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
         <div className="container hero-grid">
           <div>
-            <h2>部署流程</h2>
-            <ul className="list">
-              <li>床垫下铺设光纤传感单元</li>
-              <li>主机接电并连接 Wi-Fi</li>
-              <li>自动采集并上传数据</li>
-              <li>平台端查看个体与群组趋势</li>
-            </ul>
+            <h2>应用与平台</h2>
+            <p>采集端 + 算法端 + 平台端，形成完整的数据闭环。</p>
           </div>
-          <div className="highlight">
-            目标：把睡眠监测从“单次检测”升级为“连续、低负担、可运营”的长期服务能力。
+          <div className="media">
+            <img src="/media/home/tech-preview.png" alt="铂慧解决方案概览" />
           </div>
         </div>
       </section>
